@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Empréstimo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            width: 100vw;
+            height: 100vh;
+            background-size: cover;
+            color: rgb(12, 3, 3);
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+        }
+
+
+        .opcoes {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.31);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(2.7px);
+            -webkit-backdrop-filter: blur(2.7px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+
+        }
+
+        #botao {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>   
+
+    <div class="opcoes">
+        <img src="img/Encoding-removebg-preview.png" alt="" width="200" height="164" class="d-inline-block align-text-top">
+        <h1>Bem-vindo</h1>
+        <h2>Selecione uma Opção:</h2>
+
+        <a href="emprestimo.php" class="btn btn-dark">Registrar Empréstimo</a>
+        <br> <br>
+        <a href="relatorio.php" class="btn btn-dark">Acessar Relatórios</a>
+
+    </div>
+
+</body>
+
+</html>
